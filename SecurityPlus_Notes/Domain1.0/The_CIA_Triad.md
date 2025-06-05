@@ -1,7 +1,5 @@
 The **CIA Triad** is a foundational model in cybersecurity that outlines three primary objectives to protect information:
 
----
-
 ## 1. Confidentiality
 
 - **Definition**: Ensuring that sensitive information is only accessible to those who are authorized to view it.

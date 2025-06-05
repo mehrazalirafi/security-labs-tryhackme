@@ -25,6 +25,6 @@ Examples:
 | **Physical**    | Door lock         | Warning signs   | Motion detectors | Fire extinguisher   | Generator after outage      | "Authorized Personnel Only" |
 
 Notes:
- - Security controls may fall under multiple categories or types.
- - New controls emerge as technology evolves.
- - Organizations often combine control types for stronger protection.
+- Security controls may fall under multiple categories or types.
+- New controls emerge as technology evolves.
+- Organizations often combine control types for stronger protection.

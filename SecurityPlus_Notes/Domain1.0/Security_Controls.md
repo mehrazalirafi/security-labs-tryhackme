@@ -6,6 +6,8 @@ Categories of Security Controls:
 | **Operational** | Implemented by people                              | Security guards, awareness training |
 | **Physical**    | Limit physical access                              | Fences, locks, guard shack, badges  |
 
+---
+
 Types of Security Controls:
 | Type             | Purpose                                   | Examples                                                            |
 | ---------------- | ----------------------------------------- | ------------------------------------------------------------------- |
@@ -16,6 +18,8 @@ Types of Security Controls:
 | **Compensating** | Alternate control when main control fails | Separation of duties, generator, firewall blocking an unpatched app |
 | **Directive**    | Direct behavior toward compliance         | Policies, training, signs like "Authorized Personnel Only"          |
 
+---
+
 Examples:
 | Category \ Type | Preventive        | Deterrent       | Detective        | Corrective          | Compensating                | Directive                   |
 | --------------- | ----------------- | --------------- | ---------------- | ------------------- | --------------------------- | --------------------------- |
@@ -23,6 +27,8 @@ Examples:
 | **Managerial**  | Onboarding policy | Demotion threat | Login review     | Reporting policies  | Separation of duties        | Compliance policies         |
 | **Operational** | Guard shack       | Reception desk  | Property patrols | Involve authorities | Power control via generator | Security training           |
 | **Physical**    | Door lock         | Warning signs   | Motion detectors | Fire extinguisher   | Generator after outage      | "Authorized Personnel Only" |
+
+---
 
 Notes:
 - Security controls may fall under multiple categories or types.

@@ -1,6 +1,6 @@
 # Cryptography: Core Concepts
 
-## 📌 Non-repudiation
+##  Non-repudiation
 - **Definition:** Ensures that someone cannot deny the validity of their actions or statements.
 - **Example:** Signing a contract ensures non-repudiation — the signer cannot deny having signed it.
 - **Cryptographic Relevance:**
@@ -10,7 +10,7 @@
 
 ---
 
-## 📌 Proof of Integrity
+##  Proof of Integrity
 - **Goal:** Ensure data has **not changed** during transit or storage.
 - **Method:** Use **cryptographic hashes**.
   - Hash = Short string of text representing the data.
@@ -20,7 +20,7 @@
 
 ---
 
-## 📌 Hashing Example: Gutenberg Encyclopedia
+##  Hashing Example: Gutenberg Encyclopedia
 - **Original File:** Gutenberg Encyclopedia Vol 1 (8.1 MB).
 - **Original Hash:**
 c7004997a9cff73f9c3423579be5e8577389b63b4b085e541d327903f99a09db
@@ -30,7 +30,7 @@ c7004997a9cff73f9c3423579be5e8577389b63b4b085e541d327903f99a09db
 
 ---
 
-## 📌 Proof of Origin
+##  Proof of Origin
 - **Goal:** Confirm that the message:
 - Was **not modified** (integrity)
 - Came from a **verified sender** (authentication)
@@ -42,7 +42,7 @@ c7004997a9cff73f9c3423579be5e8577389b63b4b085e541d327903f99a09db
 
 ---
 
-## 🛠 Creating a Digital Signature
+##  Creating a Digital Signature
 1. Write message (e.g., `You're hired, Bob`)
 2. Generate hash of the message using a **hashing algorithm**
 3. Encrypt the hash with sender’s **private key** → produces the **digital signature**
@@ -50,7 +50,7 @@ c7004997a9cff73f9c3423579be5e8577389b63b4b085e541d327903f99a09db
 
 ---
 
-## ✅ Verifying a Digital Signature
+##  Verifying a Digital Signature
 1. Receive plaintext and digital signature.
 2. Use sender’s **public key** to decrypt the signature → get the original hash.
 3. Hash the received plaintext yourself.

@@ -32,13 +32,13 @@ c7004997a9cff73f9c3423579be5e8577389b63b4b085e541d327903f99a09db
 
 ##  Proof of Origin
 - **Goal:** Confirm that the message:
-- Was **not modified** (integrity)
-- Came from a **verified sender** (authentication)
+  - Was **not modified** (integrity)
+  - Came from a **verified sender** (authentication)
 - **Process:**
-- Ensure the **signature is authentic** (non-repudiation).
-- Sender signs with their **private key**.
-- Receiver verifies using the **public key**.
-- Any change to the message **invalidates the signature**.
+  - Ensure the **signature is authentic** (non-repudiation).
+  - Sender signs with their **private key**.
+  - Receiver verifies using the **public key**.
+  - Any change to the message **invalidates the signature**.
 
 ---
 

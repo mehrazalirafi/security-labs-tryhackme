@@ -12,7 +12,7 @@ This folder contains structured notes based on the **Security+ (SY0-701)** exam 
 
 These notes are intended for:
 - Study reference while preparing for Security+
-- Flashcard creation (linked in `Flashcards_Index.md`)
+- Flashcard creation (linked in [Flashcards_Index.md](./Flashcards_Index.md))
 - GitHub documentation of personal cybersecurity learning
 
 > 🔖 **Disclaimer**: This is a personal study resource. All original instructional material belongs to **Professor Messer / Messer Studios, LLC**.

@@ -91,8 +91,3 @@ Hashes (different for each salted input)
 2. Hash the received plaintext again
 3. Compare the two hashes
 4. If equal → signature is verified
-
----
-
-© 2023 Messer Studios, LLC  
-Source: ProfessorMesser.com

@@ -47,8 +47,3 @@
   - **Immutability** of records
   - **Tamper detection**
   - High level of **trust and integrity**
-
----
-
-© 2023 Messer Studios, LLC  
-Source: ProfessorMesser.com

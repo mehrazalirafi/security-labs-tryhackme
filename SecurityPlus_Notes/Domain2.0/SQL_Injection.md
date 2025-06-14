@@ -7,8 +7,6 @@
 - **Cause**: Primarily due to bad programming—applications should validate input and output properly.
 - **Injection Vectors**: HTML, SQL, XML, LDAP, etc.
 
-![Code Injection](./54e3a9d0-281c-42e5-99b7-c827812f3ad9.png)
-
 ---
 
 ## SQL Injection (SQLi)
@@ -19,8 +17,6 @@
   - These queries are then executed by the database.
   - The application should validate input and block such behavior.
 - **Common Attack Vector**: Web browser form or field.
-
-![SQL Injection Intro](./afbe3697-7adb-4de2-a7e1-9b4a0e9ae8c4.png)
 
 ---
 
@@ -44,16 +40,12 @@
   ```
 - **Result**: Bypasses authentication and exposes the entire database.
 
-![SQL Injection Code](./17ca5976-e041-47c3-a7f1-29317cc35946.png)
-
 ---
 
 ## SQL Injection Demonstration: Normal Query
 
 - Employee `Smith` with TAN `3SL99A` is queried.
 - Only Smith's data is returned.
-
-![SQL Injection Normal Result](./b9992f1b-50dc-4892-92e4-7ba4a34a5960.png)
 
 ---
 
@@ -64,8 +56,6 @@
   ' OR '1' = '1
   ```
 - **Result**: Full database output including other employees and sensitive information.
-
-![SQL Injection Exploit Result](./3d962665-fa42-4af5-b92a-a5bdf5bc4ca3.png)
 
 ---
 
@@ -85,5 +75,3 @@
 - Use a **Web Application Firewall (WAF)**
 
 ---
-
-> Source: Professor Messer – [professormesser.com](https://professormesser.com)

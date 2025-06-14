@@ -1,53 +1,46 @@
-# Cross-Site Scripting (XSS) – Summary Notes
+# Cross-Site Scripting (XSS) Summary
 
-## 🔐 What is XSS?
-- XSS = Cross-site scripting (not to be confused with CSS).
-- Allows attackers to inject malicious scripts into trusted websites.
-- Exploits browser security flaws, often via JavaScript.
-- Takes advantage of the trust a user has in a website.
+## What is XSS?
+- **XSS (Cross-Site Scripting)** is a common web vulnerability.
+- It was originally named "cross-site" due to browser flaws where one site could access data from another.
+- **Not to be confused with CSS (Cascading Style Sheets).**
 
----
+## Attack Characteristics
+- One of the most widespread vulnerabilities in web apps.
+- Exploits the **trust a user places in a website**.
+- Most XSS attacks involve **JavaScript**.
 
-## 🚨 How XSS Works
-1. Attacker sends a malicious link to the victim.
-2. Victim clicks it and visits a legitimate site.
-3. Malicious script runs in the victim’s browser.
-4. Data like session cookies are stolen and sent to attacker.
+## General Exploitation Flow
+1. Attacker sends a **malicious link** with a script to a victim.
+2. Victim clicks and visits a **legitimate website**.
+3. The site loads, but the malicious script also runs.
+4. This script may **steal cookies, session IDs, or other sensitive data** and send it to the attacker.
 
----
+## Types of XSS
 
-## 🪞 Reflected (Non-Persistent) XSS
-- Script runs only once—reflected off a vulnerable site (e.g., via a search box).
-- Delivered via a URL (email, text, etc.).
-- Runs in victim’s browser and steals session data.
+### Non-Persistent (Reflected) XSS
+- Script is reflected off a web server (e.g., search input).
+- Sent via email or link.
+- Executes immediately in the user's browser.
+- **Steals credentials/session IDs** without user's knowledge.
 
----
+### Persistent (Stored) XSS
+- Attacker posts the malicious script on a **public page** (e.g., comment or social media post).
+- Payload is saved on the site and affects **every visitor**.
+- Can **propagate** across users and spread.
 
-## 🛒 Example of Reflected XSS
-- XSS payload embedded in input fields (like credit card forms).
-- Executes JavaScript like `document.cookie` when submitted.
-- Victim’s session info displayed or stolen silently.
+### Real-World Case: Subaru (2017)
+- Subaru's web app issued tokens that never expired.
+- Tokens were valid for **any request**, even across accounts.
+- XSS in frontend allowed an attacker to steal a token and gain **control of someone else's vehicle**.
 
----
+## Mitigation and Protection
 
-## 🧠 Stored (Persistent) XSS
-- Malicious code is stored (e.g., in a social media post).
-- Every viewer of the content gets affected.
-- Can spread fast across users.
+### For Users
+- Avoid clicking **untrusted links** (especially in emails).
+- Consider **disabling JavaScript** (limited protection).
+- Always keep your **browser and apps updated**.
 
----
-
-## 🏎️ Real-World Case: Subaru Hack (2017)
-- Token never expired.
-- XSS vulnerability allowed attacker to grab token and control vehicles.
-- Vulnerability reported and patched.
-
----
-
-## 🛡️ Protecting Against XSS
-- Don’t click untrusted links.
-- Consider disabling or limiting JavaScript.
-- Keep browsers and software up-to-date.
-- Always validate input—no raw scripts allowed!
-
----
+### For Developers
+- **Validate user input** to prevent script injection.
+- **Never allow arbitrary scripts** in input fields.

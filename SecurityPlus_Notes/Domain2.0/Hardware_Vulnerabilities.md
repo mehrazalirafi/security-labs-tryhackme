@@ -17,8 +17,8 @@
 ## End-of-Life (EOL) and End-of-Service-Life (EOSL)
 - **EOL**: Manufacturer stops selling a product but may still support it.
 - **EOSL**: No more support or security patches.
-- EOSL devices are a **major risk** as no further protections are provided.
-- Premium-cost support may exist but is impractical for most.
+  - EOSL devices are a **major risk** as no further protections are provided.
+  - Premium-cost support may exist but is impractical for most.
 
 ## Legacy Platforms
 - Devices/software often **stay in use too long** (legacy systems).

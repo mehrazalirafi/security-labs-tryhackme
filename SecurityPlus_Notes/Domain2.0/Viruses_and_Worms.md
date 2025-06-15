@@ -1,5 +1,5 @@
 
-# Malware Deep Dive – Professor Messer Video Summary (Extended)
+# Malware Deep Dive
 
 ## Virus
 

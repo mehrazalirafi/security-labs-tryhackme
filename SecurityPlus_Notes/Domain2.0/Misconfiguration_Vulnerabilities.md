@@ -1,7 +1,5 @@
 # Common Security Misconfigurations
 
-This summary covers key vulnerabilities and misconfigurations highlighted in Professor Messer’s Security+ training. Each represents a critical failure point in system security and should be addressed in real-world environments.
-
 ---
 
 ## 🔓 1. Open Permissions

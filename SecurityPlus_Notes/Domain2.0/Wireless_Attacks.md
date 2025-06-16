@@ -1,6 +1,6 @@
 # Wireless Deauthentication and RF Jamming
 
-## 🔹 Wireless Deauthentication Attacks
+## Wireless Deauthentication Attacks
 
 - **Symptoms**: Users are unexpectedly disconnected from Wi-Fi repeatedly.
 - **Cause**: An attacker sends deauthentication frames, exploiting the lack of encryption in 802.11 management frames.
@@ -12,12 +12,12 @@
 - These are essential for network operations but were historically sent in **plaintext**, without validation or encryption.
 - Example data includes SSID, MAC addresses, supported rates, and capabilities.
 
-## 🔹 Preventing Deauth Attacks
+## Preventing Deauth Attacks
 
 - **802.11ac and newer standards** introduced encryption for critical management frames (e.g., deauth, disassoc, channel switch).
 - Some frames (beacons, probes) are still sent in the clear and visible via packet capture.
 
-## 🔹 RF Jamming
+## RF Jamming
 
 - A broader form of DoS where **interfering RF signals** disrupt Wi-Fi communication.
 - Causes include:

@@ -51,11 +51,3 @@ On-path attacks (formerly known as Man-in-the-Middle) occur when an attacker sec
 - Attacker uses credentials in background to steal money or data.
 
 ---
-
-## Visual Reference Summary
-
-- **Image 1**: ARP poisoning interface showing spoofing tool config.
-- **Image 2–4**: ARP poisoning demonstration (MAC cache being overwritten).
-- **Image 5–6**: On-path browser attack showing fake banking session controlled by attacker.
-
----

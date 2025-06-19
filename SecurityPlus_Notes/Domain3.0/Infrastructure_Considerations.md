@@ -1,6 +1,6 @@
 # Cloud Infrastructure Design Considerations
 
-This document summarizes key infrastructure considerations for cloud-based environments, based on Professor Messer’s video lecture.
+This document summarizes key infrastructure considerations for cloud-based environments.
 
 ---
 

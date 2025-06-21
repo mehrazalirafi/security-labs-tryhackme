@@ -69,5 +69,3 @@ This video provides an overview of how organizations categorize and manage data 
 | **Critical** | Must always be accessible (high availability) |
 
 ---
-
-*© 2023 Messer Studios, LLC - https://ProfessorMesser.com*

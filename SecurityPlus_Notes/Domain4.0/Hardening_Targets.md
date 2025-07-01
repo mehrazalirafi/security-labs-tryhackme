@@ -1,6 +1,5 @@
 # System Hardening Guide
 > *Security principles for technology infrastructure*  
-> Based on Professor Messer's CompTIA Security+ series (2025)
 
 ## Core Principles
 - 🛡️ **Never trust defaults**: Always reconfigure security settings

@@ -19,4 +19,4 @@ These notes are intended for:
 
 ---
 
-Feel free to explore, clone, or fork the repo for your own Security+ journey.
+Feel free to explore, clone, or fork the repo for your own Security+ journey!
